@@ -15,6 +15,10 @@ import java.util.regex.Pattern;
 //TODO make sure it can handle directories with spaces and spaces at end of input
 //TODO create output text files work properly
 //TODO if there are duplicates going to same package.... save elsewhere or launch both duplicates and compare.. show differences..type yes or no to go forwards and pick one... if no differences then just pick one and proceed (maybe put a copy in the duplicates)... if different then pick one and save one elsewhere with original path info of each
+//TODO add GUI
+//TODO merge this and java_organizer together
+//TODO add option to compile first (look for main function?)
+//TODO add option to copy everything to output folder and performing deletions on that
 
 public class uncompiled_java_remover {
 
