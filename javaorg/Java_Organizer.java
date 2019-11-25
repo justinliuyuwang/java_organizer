@@ -20,9 +20,10 @@ import javax.swing.*;
 //TODO handle nonexistent directories
 //TODO make sure there are no spaces in end of directory name input
 //TODO make sure it can handle directories with spaces and spaces at end of input
-//TODO make sure both text files work properly
+//TODO make sure both output text files work properly
+//TODO if there are duplicates going to same package.... save elsewhere or launch both duplicates and compare.. show differences..type yes or no to go forwards and pick one... if no differences then just pick one and proceed (maybe put a copy in the duplicates)... if different then pick one and save one elsewhere with original path info of each
 
-public class Java_Organizer {
+public class java_organizer {
 
     public static void main(String[] args){
             Scanner scanner_object = new Scanner(System.in);
@@ -68,8 +69,6 @@ public class Java_Organizer {
 
     }
 
-
-//if there are duplicates going to same package.... save elsewhere or launch both duplicates and compare.. show differences..type yes or no to go forwards and pick one... if no differences then just pick one and proceed (maybe put a copy in the duplicates)... if different then pick one and save one elsewhere with original path info of each
     private static void recursion(String current_folder, String root_folder) throws Exception {
 
         Path dir = Paths.get(current_folder);
